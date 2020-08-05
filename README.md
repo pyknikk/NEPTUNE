@@ -13,10 +13,10 @@ Parse the pub/sub messages into fields
 Create a new table in the neptune dataset with a matching schema  
 Stream the rows into BigQuery  
 
-## Additional Goals: 
-Subscripe to the moonbank-neptune activities topic 
-Process the messages sent 1 to 3 times per second that are emitted  
+## Additional Goals:  
+Subscripe to the moonbank-neptune activities topic  
+Process the messages sent 1 to 3 times per second that are emitted    
 SCHEMA: action:string,accountnumber:string,actionid:integer,name:string,actionby:string  
-Build a Data Studio Dashboard that reports on Database Activities  
+Build a Data Studio Dashboard that reports on Database Activities   
 
 
