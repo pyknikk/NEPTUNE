@@ -16,7 +16,7 @@ Stream the rows into BigQuery
 ## Additional Goals:  
 Subscripe to the moonbank-neptune activities topic  
 Process the messages sent 1 to 3 times per second that are emitted    
-SCHEMA: action:string,accountnumber:string,actionid:integer,name:string,actionby:string  
+SCHEMA: id:string,ipaddress:string,action:string,accountnumber:string,actionid:integer,name:string,actionby:string  
 Build a Data Studio Dashboard that reports on Database Activities   
 
-
+Example: 20200812040801981475,195.174.170.81,UPDATE,GB25BZMX47593824219489,4,Emily Blair,STAFF
