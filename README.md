@@ -22,13 +22,13 @@ Parse the message and write into a new table in your Neptune Dataset
 
 Build a Data Studio Dashboard that reports on Database Activities    
 
-NOTE: the Cloud Function will need to be created in the moonbank-neptune project. At present, GCP does not permit a Pub/Sub-based Cloud Function to subscribe to a topic in another project - so the Cloud Function must be deployed in the same project as the pub/sub topic  
+NOTE: the Cloud Function will need to be created in the moonbank-neptune project. At present, GCP does not permit a Pub/Sub-based Cloud Function to subscribe to a topic in another project - so the Cloud Function must be deployed in the same project as the pub/sub topic.
 
 The DataEngineers@roimoonbank.com group has the following IAM permissions to the moonbank-neptune project  
   Cloud Functions Admin  
   Pub/Sub Subscriber  
   Create Service Accounts  
 
-To deploy your cloud function   
+To deploy your cloud function - use a custom service account
   Create a Service Account to run your Cloud Function in the moonbank-neptune project  
   Grant the Service Account BigQuery Data Editor to the dataset in your Project  
