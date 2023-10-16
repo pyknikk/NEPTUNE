@@ -18,4 +18,4 @@ Parse the message and write into a new table in your Neptune Dataset
   SCHEMA: id:string,ipaddress:string,action:string,accountnumber:string,actionid:integer,name:string,actionby:string    
   Example: 20200812040801981475,195.174.170.81,UPDATE,GB25BZMX47593824219489,4,Emily Blair,STAFF  
 
-Build a Data Studio Dashboard that reports on Database Activities    
+Build a Looker Studio Dashboard that reports on Database Activities    
