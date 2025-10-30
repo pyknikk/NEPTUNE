@@ -1,6 +1,19 @@
 # Project Neptune
 The New Entities, Passwords, Tests, Updates, Nulls and Exports (NEPTUNE) system is desired to better understand Moonbank rate-of-growth and administration overhead to manage Moonbank customers
 
+## Project setup
+
+```bash
+gcloud services enable \
+    dataflow.googleapis.com cloudfunctions.googleapis.com \
+    run.googleapis.com cloudbuild.googleapis.com \
+    eventarc.googleapis.com pubsub.googleapis.com \
+    cloudbuild.googleapis.com containerregistry.googleapis.com
+```
+
+Make sure you see the pubsub robot account with the Pubsub Service Agent Role allocated, otherwise, disbale and re-enable pubsub
+![alt text](image.png)
+
 ## To deploy the sample code to a Cloud Function  
 Requires a BigQuery Dataset named: Neptune  
 Requires a Table named: rawmessages  
